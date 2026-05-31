@@ -1,0 +1,15 @@
+name: qpns
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - matplotlib
+  - pandas
+  - scipy
+  - jupyter
+  - pip:
+      - pennylane==0.35.1
+      - gymnasium==0.29.1
+      - tqdm
